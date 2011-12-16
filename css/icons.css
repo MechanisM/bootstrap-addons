@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'IconicStrokeRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/iconic_stroke.eot');
+  src: local('@fontFamily'), url('../fonts/iconic_stroke.eot?#iefix') format('embedded-opentype'), url('../fonts/iconic_stroke.woff') format('woff'), url('../fonts/iconic_stroke.ttf') format('truetype'), url('../fonts/iconic_stroke.svg#IconicStrokeRegular') format('svg'), url('../fonts/iconic_stroke.otf') format('opentype');
+}
+.icon:before{font-family:'IconicStrokeRegular';font-size:14px;color:#000;content:'';position:relative;float:left;top:1px;margin:0 0.5em 0 0}
+.icon.alternative:before{color:#ffffff}
+.icon.right:before{float:right;margin:0 -0.25em 0 0.5em}
+.icon.large:before{font-size:16px}
+.icon.small:before{font-size:13px}
+.icon.arrowup:before{content:'0'}
+.icon.arrowdown:before{content:'1'}
+.icon.arrowleft:before{content:'2'}
+.icon.arrowright:before{content:'3'}
+.icon.approve:before,.icon.success:before{content:'4'}
+.icon.remove:before,.icon.error:before,.icon.warning:before{content:'5'}
+.icon.log:before{content:'6'}
+.icon.calendar:before{content:'7'}
+.icon.chat:before{content:'8'}
+.icon.clock:before{content:'9'}
+.icon.settings:before{content:'a'}
+.icon.comment:before{content:'b'}
+.icon.fork:before{content:'c'}
+.icon.like:before{content:'d'}
+.icon.home:before{content:'e'}
+.icon.key:before{content:'f'}
+.icon.lock:before{content:'g'}
+.icon.unlock:before{content:'h'}
+.icon.loop:before{content:'i'}
+.icon.search:before{content:'j'}
+.icon.mail:before{content:'k'}
+.icon.move:before{content:'l'}
+.icon.edit:before{content:'m'}
+.icon.pin:before{content:'n'}
+.icon.add:before{content:'o'}
+.icon.reload:before{content:'p'}
+.icon.rss:before{content:'q'}
+.icon.tag:before{content:'r'}
+.icon.trash:before{content:'s'}
+.icon.favorite:before{content:'t'}
+.icon.user:before{content:'u'}
+.icon.minus:before{content:'v'}
+.icon.upload:before{content:'w'}
+.icon.transfer:before{content:'x'}
+.icon.stop:before{content:'y'}
+.icon.movie:before{content:'z'}
+.icon.pause:before{content:'A'}
+.icon.play:before{content:'B'}
+.icon.new-window:before{content:'C'}
+.icon.link:before{content:'D'}
+.icon.info:before,.icon.iinfo:before{content:'E'}
+.icon.image:before{content:'F'}
+.icon.folder:before{content:'G'}
+.icon.fullscreen:before{content:'H'}
+.icon.fullexit:before{content:'I'}
+.icon.share:before{content:'J'}
+.icon.undo:before{content:'K'}
+.icon.quote:before{content:'L'}
+.icon.printer:before{content:'M'}
