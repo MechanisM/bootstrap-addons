@@ -1,4 +1,4 @@
-button, input[type=submit], input[type=button], .btn2 {
+.btn2 {
     display:inline-block;
     background: #e6e6e6;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FeFeFe,endColorstr=#e6e6e6);
@@ -19,7 +19,7 @@ button, input[type=submit], input[type=button], .btn2 {
     -webkit-box-shadow: 0 1px 3px #fff inset, 0 1px 3px #999;
     -moz-box-shadow: 0 1px 3px #fff inset, 0 1px 3px #999;
 }
-button:hover, input[type=submit]:hover, input[type=button]:hover, .btn2:hover {
+.btn2:hover {
     background: #e6e6e6;
     color:#3F3F40;
     border-color:#c6c6c6;
